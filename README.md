@@ -10,6 +10,11 @@ All of the data that is collected is displayed in real time graphs such as these
 </p>
 
 ## Features
+<p align="center">
+<img src="https://media.giphy.com/media/VxLLXeweBaHsRnHc60/giphy-downsized-large.gif">
+</p>
+
+
 
 - Displays current PM2.5, PM1.0, ambient temperature, and humidity
 - Arduino filters PM data for noise and displays rolling average of PMs for consistent data capture

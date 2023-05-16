@@ -60,4 +60,4 @@ I designed the 3D printed housing to house all of the components in Solidworks. 
 The dependencies for this is a whole lot more straight forward than the hardware. The SoftwareSerial library is used to communicate with the PM sensor and computer durring the debugging process. The good'ol liquidcrystal library manages the LCD. Adafruit's neopixel and PM2.5 libraries handle their sensors. Finally the DHT library handles the DHT11 module.  
 
 
-***[The Code Can be Found Here!]()***
+***[The Code Can be Found Here!](https://github.com/HugeCoderGuy/Desk_Sensor_Suite/blob/main/desk_ard/desk_ard.ino)***

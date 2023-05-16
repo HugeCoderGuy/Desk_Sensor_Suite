@@ -159,6 +159,17 @@ void setup()
     delay(1000);
  break;
  }
+  else{
+    Serial.println(F("WIFI CONNECTED"));
+    lcd.clear();
+    lcd.setCursor(0,0);
+
+    lcd.print(F("WIFI CONNECTED"));
+    lcd.setCursor(0,1);
+    lcd.print("       :)");
+    delay(1000);
+ break;
+  }
  times_check++;
  if(times_check>3)
  {
@@ -188,20 +199,20 @@ void setup()
 
 void loop()
 {
-  waitTime = millis()-startTime;
-
-  if (waitTime > (writingTimer*1000))
-  {
-    lcd.clear();
-    lcd.print(F("Uploading to"));
-    lcd.setCursor(0,1);
-    lcd.print("ThingSpeak");
-    readSensors();
-    writeThingSpeak();
-    //writeAQIapi();
-
-    startTime = millis();
-  }
+//  waitTime = millis()-startTime;
+//
+//  if (waitTime > (writingTimer*1000))
+//  {
+//    lcd.clear();
+//    lcd.print(F("Uploading to"));
+//    lcd.setCursor(0,1);
+//    lcd.print("ThingSpeak");
+//    readSensors();
+//    writeThingSpeak();
+//    //writeAQIapi();
+//
+//    startTime = millis();
+//  }
   jellyOnOff();
   updateLCD();
   LCDOnOff();
